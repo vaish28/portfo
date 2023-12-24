@@ -1,0 +1,69 @@
+/* Add your general styling here */
+
+.skills-content {
+    margin-top: 20px;
+  }
+  
+  .progress {
+    margin-bottom: 20px;
+    height: 25px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress-bar-wrap {
+    height: 100%;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #c2dbec; /* Change the color as needed */
+  }
+  
+  .skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+  }
+  
+  .val {
+    margin-left: 5px;
+  }
+
+  .skillsheading {
+    /* text-align: center; align content in the center */
+    font-size: 30px; /* adjust the font size as needed */
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+
+  .custom-margin{
+    margin-top: 36rem;
+  }
+  
+  /* Responsive styles for different screen sizes */
+  
+  @media (max-width: 767px) {
+    .col-6 {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-4 {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .col-lg-3 {
+      width: 33.33%;
+    }
+  }
+  
