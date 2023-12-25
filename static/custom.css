@@ -3,6 +3,10 @@
 .skills-content {
     margin-top: 20px;
   }
+
+  body{
+    background-color: rgb(229, 237, 235)!important;
+  }
   
   .progress {
     margin-bottom: 20px;
